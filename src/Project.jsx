@@ -6,18 +6,20 @@ class Project extends Component {
 		return (
 			<div
 				key={this.props.name}
-				className="row d-flex justify-content-between my-5"
+				className="row d-flex justify-content-center justify-content-md-between my-4"
 			>
-				<div className="col-7">
-					<h3 className="my-4">{this.props.name}</h3>
-					<h6 className="float-right italicise">{this.props.technologies}</h6>
-					<h5 className="italicise">{this.props.app_type}</h5>
+				<div className="col-10 col-md-7">
+					<h3 className="">{this.props.name}</h3>
+					<h6 className="float-lg-right italicise">
+						{this.props.technologies}
+					</h6>
+					<h6>{this.props.app_type}</h6>
 					<p>{this.props.description}</p>
 				</div>
-				<div className="col-4">
+				<div className="col-10 col-md-5 d-flex align-items-center">
 					<a href={this.props.github} target="_blank" rel="noreferrer noopener">
 						<img
-							className="img-fluid picture"
+							className="img-fluid picture my-2"
 							src={this.props.picture}
 							alt={this.props.name}
 						/>

@@ -11,23 +11,25 @@ class Experience extends Component {
 		return (
 			<div
 				key={this.props.company}
-				className="row d-flex justify-content-between my-5"
+				className="row d-flex justify-content-center justify-content-sm-between my-5"
 			>
-				<div className="col-4">
+				<div className="col-12 col-sm-4 px-5 mx-5 mx-sm-0 px-sm-0">
 					<img
-						className="img-fluid"
+						className="img-fluid mb-4 mb-md-0"
 						src={this.props.logo}
 						alt={this.props.company}
 					/>
 				</div>
-				<div className="col-7">
+				<div className="col-10 col-sm-7">
 					<div className="row d-flex justify-content-between align-items-end">
 						<h4>{this.props.company}</h4>
-						<h6 className="float-right">{this.props.location}</h6>
+						<h6 className="d-none d-md-block float-right">
+							{this.props.location}
+						</h6>
 					</div>
 					<div className="row d-flex justify-content-between align-items-end">
 						<h5>{this.props.role}</h5>
-						<h6 className="float-right">{this.props.date}</h6>
+						<h6 className="float-left float-md-right">{this.props.date}</h6>
 					</div>
 					<div className="job-description">{bulletPoints}</div>
 				</div>

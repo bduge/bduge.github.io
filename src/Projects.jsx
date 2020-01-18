@@ -20,7 +20,7 @@ class Projects extends Component {
 		});
 		return (
 			<div id="projects">
-				<h2 className="highlight">Projects</h2>
+				<h2 className="highlight ml-2 ml-sm-0">Projects</h2>
 				<div>{rows}</div>
 			</div>
 		);

@@ -4,14 +4,14 @@ class About extends Component {
 	render() {
 		return (
 			<div id="about" className="pb-5">
-				<h2 className="highlight my-4">About Me</h2>
-				<p>
+				<h2 className="highlight my-4 ml-2 ml-sm-0">About Me</h2>
+				<p className="ml-2 ml-sm-0">
 					Here are the things about me unrelated to work. I'm very passionate
 					about coding but there's a lot of other things I like to do with my
 					free time. Feel free to read more if you're interested!
 				</p>
-				<div className="row d-flex justify-content-between my-4">
-					<div className="col-10 col-md-4 px-4">
+				<div className="row d-flex justify-content-center justify-content-md-between my-4">
+					<div className="col-11 col-md-4 px-4 my-3">
 						<div className="jumbotron-fluid">
 							<h4>Being Active</h4>
 							<img
@@ -29,7 +29,7 @@ class About extends Component {
 							</p>
 						</div>
 					</div>
-					<div className="col-10 col-md-4 px-4">
+					<div className="col-11 col-md-4 px-4 my-3">
 						<div className="jumbotron-fluid">
 							<h4>Speech + Debate</h4>
 							<img
@@ -48,7 +48,7 @@ class About extends Component {
 							</p>
 						</div>
 					</div>
-					<div className="col-10 col-md-4 px-4">
+					<div className="col-11 col-md-4 px-4 my-3">
 						<div className="jumbotron-fluid">
 							<h4>Travel</h4>
 							<img
