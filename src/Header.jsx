@@ -41,8 +41,9 @@ class Header extends Component {
 								I am currently seeking a 4 month internship for Summer 2020.
 								Scroll down to check out some of my past work experiences and
 								projects below. If you are interested in working with me or just
-								want to chat, feel free to send me an email or a message on
-								LinkedIn.
+								want to chat, feel free to send me an email at
+								billduge@gmail.com or a message on LinkedIn. Both are linked
+								above for your convienience.
 							</p>
 						</div>
 					</div>

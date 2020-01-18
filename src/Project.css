@@ -1,3 +1,7 @@
 .italicise {
 	font-style: italic;
 }
+
+.github-link {
+	text-decoration: none !important;
+}

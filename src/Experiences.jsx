@@ -19,7 +19,7 @@ class Experiences extends Component {
 			);
 		});
 		return (
-			<div id="experience">
+			<div id="experience" className="jumptarget">
 				<h2 className="highlight ml-2 ml-sm-0">Experience</h2>
 				<div>{rows}</div>
 			</div>

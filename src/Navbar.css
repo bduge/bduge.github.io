@@ -4,6 +4,10 @@
 	font-size: x-large;
 }
 
+.shortcut:hover {
+	color: #19569c !important;
+}
+
 nav {
 	background-color: white;
 	box-shadow: 0px 2px 5px rgb(179, 179, 179);

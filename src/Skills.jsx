@@ -29,7 +29,7 @@ class Skills extends Component {
 		);
 
 		return (
-			<div id="skills">
+			<div id="skills" className="jumptarget">
 				<h2 className="highlight ml-2 ml-sm-0">Skills</h2>
 				<div className="row d-flex">
 					<div className="col-12 col-md-6">

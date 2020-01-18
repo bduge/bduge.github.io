@@ -9,7 +9,14 @@ class Project extends Component {
 				className="row d-flex justify-content-center justify-content-md-between my-4"
 			>
 				<div className="col-10 col-md-7">
-					<h3 className="">{this.props.name}</h3>
+					<a
+						href={this.props.github}
+						target="_blank"
+						rel="noreferrer noopener"
+						className="github-link"
+					>
+						<h3 className="">{this.props.name}</h3>
+					</a>
 					<h6 className="float-lg-right italicise">
 						{this.props.technologies}
 					</h6>

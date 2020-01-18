@@ -4,7 +4,7 @@ import "./Navbar.css";
 class Navbar extends Component {
 	render() {
 		return (
-			<nav className="navbar navbar-expand-md fixed-top py-1">
+			<nav className="navbar navbar-expand-md fixed-top py-0">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="#header">
 						<img
@@ -35,14 +35,14 @@ class Navbar extends Component {
 						</li>
 
 						<li className="nav-item">
-							<a className="nav-link shortcut highlight" href="#projects">
-								Projects
+							<a className="nav-link shortcut highlight" href="#skills">
+								Skills
 							</a>
 						</li>
 
 						<li className="nav-item">
-							<a className="nav-link shortcut highlight" href="#skills">
-								Skills
+							<a className="nav-link shortcut highlight" href="#projects">
+								Projects
 							</a>
 						</li>
 
