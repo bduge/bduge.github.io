@@ -7,7 +7,7 @@ class Header extends Component {
 			<div id="header" className="jumbotron jumbotron-fluid">
 				<div className="container">
 					<div className="row d-flex justify-content-center">
-						<div className="col-md-3">
+						<div className="col-md-4 col-7">
 							<img
 								className="img-fluid headshot my-3 py-1"
 								src="/images/headshot.jpg"
@@ -30,7 +30,7 @@ class Header extends Component {
 						</a>
 					</div>
 					<div className="row d-flex justify-content-center">
-						<div className="col-12 col-md-9">
+						<div className="col-10 col-md-8">
 							<p>
 								Nice to meet you and thanks for visiting my website! My name is
 								Bill and I'm a software developer. I am currently a co-op
