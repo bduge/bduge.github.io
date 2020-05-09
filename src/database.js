@@ -226,4 +226,25 @@ const skills = [
 	},
 ];
 
-export { experiences, skills, projects };
+const activities = [
+	{
+		title: "Being Active",
+		image: "images/soccer.jpg",
+		description:
+			"I've always loved playing sports. I've made some of my best friends through sports and it's also a great way to stay healthy and have fun. I played club soccer and badminton and served as the captain of the soccer and badminton teams at my high school. I no longer play organized sports but I still regularly go on runs, play pickup basketball, and work out.",
+	},
+	{
+		title: "Speech + Debate",
+		image: "images/debate.jpg",
+		description:
+			"I first joined debate club to improve my public speaking but I quickly discovered that it was a rewarding and fun extracirricular that helps me stay educated on current events and issues. I participated as a member on my high school's speech and debate team and returned to my middle school as a volunteer coach. I also enjoyed participating in various other events including HSMUN and Mock Trials.",
+	},
+	{
+		title: "Travel",
+		image: "images/travel.jpeg",
+		description:
+			"I find travelling to be a great way to spend time with my family since I'm away studying in University. Some of my fondest memories are discovering beautiful scenes in different corners of the world. Everyone needs breaks and sometimes taking a step away from work to destress and recharge is the best way of staying productive recharge.",
+	},
+];
+
+export { experiences, skills, projects, activities };

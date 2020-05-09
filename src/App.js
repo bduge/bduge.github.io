@@ -6,7 +6,7 @@ import Experiences from "./Experiences";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import About from "./About";
-import { experiences, projects, skills } from "./database";
+import { experiences, projects, skills, activities } from "./database";
 
 function App() {
 	return (
@@ -18,7 +18,7 @@ function App() {
 				<Experiences experiences={experiences} />
 				<Skills skills={skills} />
 				<Projects projects={projects} />
-				<About />
+				<About activities={activities} />
 			</div>
 		</div>
 	);
