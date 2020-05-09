@@ -18,7 +18,7 @@ class About extends Component {
 							<h4>Being Active</h4>
 							<img
 								className="img-fluid picture my-3"
-								src="/images/soccer.jpg"
+								src={process.env.PUBLIC_URL + "images/soccer.jpg"}
 								alt="soccer"
 							></img>
 							<p>
@@ -36,7 +36,7 @@ class About extends Component {
 							<h4>Speech + Debate</h4>
 							<img
 								className="img-fluid picture my-3"
-								src="/images/debate.jpg"
+								src={process.env.PUBLIC_URL + "images/debate.jpg"}
 								alt="debate"
 							></img>
 							<p>
@@ -55,7 +55,7 @@ class About extends Component {
 							<h4>Travel</h4>
 							<img
 								className="img-fluid picture my-3"
-								src="/images/travel.jpeg"
+								src={process.env.PUBLIC_URL + "images/travel.jpeg"}
 								alt="soccer"
 							></img>
 							<p>

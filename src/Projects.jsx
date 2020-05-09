@@ -5,14 +5,14 @@ class Projects extends Component {
 	render() {
 		const projects = this.props.projects;
 
-		const rows = projects.map(project => {
+		const rows = projects.map((project) => {
 			return (
 				<Project
 					key={project.name}
 					name={project.name}
 					app_type={project.app_type}
 					technologies={project.technologies}
-					picture={project.picture}
+					picture={process.env.PUBLIC_URL + project.picture}
 					github={project.github}
 					description={project.description}
 				/>
