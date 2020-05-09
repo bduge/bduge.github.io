@@ -10,7 +10,7 @@ class Navbar extends Component {
 						<img
 							id="logo"
 							className="img-fluid"
-							src="/images/logo.png"
+							src={process.env.PUBLIC_URL + "/images/logo.png"}
 							alt="logo"
 						/>
 					</a>
