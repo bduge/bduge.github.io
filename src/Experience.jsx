@@ -17,7 +17,7 @@ class Experience extends Component {
 						alt={this.props.company}
 					/>
 				</div>
-				<div className="col-12 col-md-7">
+				<div className="col-11 col-md-7">
 					<div className="row d-flex justify-content-between align-items-end">
 						<h4>{this.props.company}</h4>
 						<h6 className="d-none d-md-block float-right">
