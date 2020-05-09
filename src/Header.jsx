@@ -38,8 +38,8 @@ class Header extends Component {
 								Canada, but I lived in Edmonton, Canada for most of my life.
 							</p>
 							<p>
-								I am currently seeking a 4 month internship for Summer 2020.
-								Scroll down to check out some of my past work experiences and
+								I am currently seeking a 4 month internship for Winter 2021.
+								Scroll down to check out my past work experience or some
 								projects below. If you are interested in working with me or just
 								want to chat, feel free to send me an email at
 								billduge@gmail.com or a message on LinkedIn. Both are linked
