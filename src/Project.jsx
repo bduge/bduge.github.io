@@ -6,7 +6,7 @@ class Project extends Component {
 		return (
 			<div
 				key={this.props.name}
-				className="row d-flex justify-content-center justify-content-md-between my-4"
+				className="row d-flex justify-content-center justify-content-md-between my-5"
 			>
 				<div className="col-10 col-md-7">
 					<a

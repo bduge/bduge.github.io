@@ -23,7 +23,7 @@ class Navbar extends Component {
 						aria-expanded="false"
 						aria-label="Toggle Navigation"
 					>
-						<i class="fas fa-bars"></i>
+						<i className="fas fa-bars"></i>
 					</button>
 				</div>
 				<div id="navbarContent" className="collapse navbar-collapse">

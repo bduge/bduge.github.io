@@ -5,14 +5,14 @@ class Experiences extends Component {
 	render() {
 		const experiences = this.props.experiences;
 
-		const rows = experiences.map(experience => {
+		const rows = experiences.map((experience) => {
 			return (
 				<Experience
 					key={experience.company}
 					company={experience.company}
 					location={experience.location}
 					date={experience.date}
-					logo={experience.logo}
+					logo={process.env.PUBLIC_URL + experience.logo}
 					role={experience.role}
 					description={experience.description}
 				/>

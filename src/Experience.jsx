@@ -4,7 +4,7 @@ import "./Experience.css";
 class Experience extends Component {
 	render() {
 		const description = this.props.description;
-		const bulletPoints = description.map(bullet => {
+		const bulletPoints = description.map((bullet) => {
 			return <p key={bullet}>• {bullet}</p>;
 		});
 
