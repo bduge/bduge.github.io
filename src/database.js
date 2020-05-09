@@ -243,7 +243,7 @@ const activities = [
 		title: "Travel",
 		image: "images/travel.jpeg",
 		description:
-			"I find travelling to be a great way to spend time with my family since I'm away studying in University. Some of my fondest memories are discovering beautiful scenes in different corners of the world. Everyone needs breaks and sometimes taking a step away from work to destress and recharge is the best way of staying productive recharge.",
+			"I find travelling to be a great way to spend time with my family since I'm away studying in University. Some of my fondest memories are discovering beautiful scenes in different corners of the world. Everyone needs breaks and sometimes taking a step away from work to recharge is the best way of staying productive.",
 	},
 ];
 
