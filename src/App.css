@@ -58,3 +58,13 @@ p {
 	height: 80px; /* fixed header height*/
 	margin: -80px 0 0; /* negative fixed header height */
 }
+
+.fade-in {
+	opacity: 1;
+	transition: opacity 100ms ease-in;
+}
+
+.fade-out {
+	opacity: 0;
+	transition: opacity 100ms ease-in;
+}

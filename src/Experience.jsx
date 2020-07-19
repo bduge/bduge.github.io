@@ -9,7 +9,7 @@ class Experience extends Component {
 		});
 
 		return (
-			<div className="row d-flex justify-content-center justify-content-md-between my-5">
+			<div className="row d-flex justify-content-center justify-content-md-between my-5 fader">
 				<div className="col-12 col-md-4 px-5 mx-5 mx-md-0 px-md-0">
 					<img
 						className="img-fluid mb-4 mb-md-0"

@@ -4,7 +4,7 @@ import "./Project.css";
 class Project extends Component {
 	render() {
 		return (
-			<div className="row d-flex justify-content-center justify-content-md-between my-5">
+			<div className="row d-flex justify-content-center justify-content-md-between my-5 fader">
 				<div className="col-12 col-md-7">
 					<a
 						href={this.props.github}

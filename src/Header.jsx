@@ -6,7 +6,7 @@ class Header extends Component {
 		return (
 			<div id="header" className="jumbotron jumbotron-fluid">
 				<div className="container">
-					<div className="row d-flex justify-content-center">
+					<div className="row d-flex justify-content-center fader">
 						<div className="col-md-4 col-7">
 							<img
 								className="img-fluid headshot mb-3 py-1"
@@ -44,7 +44,7 @@ class Header extends Component {
 							<i className="fas fa-envelope highlight"></i>{" "}
 						</a>
 					</div>
-					<div className="row d-flex justify-content-center">
+					<div className="row d-flex justify-content-center fader">
 						<div className="col-10 col-md-8">
 							<p>
 								Nice to meet you and thanks for visiting my website! My name is
