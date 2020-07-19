@@ -19,13 +19,28 @@ class Header extends Component {
 						<h1>Bill DuGe</h1>
 					</div>
 					<div className="row d-flex justify-content-center my-2">
-						<a href="https://github.com/bduge/" className="mx-2">
+						<a
+							href="https://github.com/bduge/"
+							className="mx-2"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<i className="fab fa-github highlight"></i>
 						</a>
-						<a href="https://www.linkedin.com/in/bill-duge/" className="mx-2">
+						<a
+							href="https://www.linkedin.com/in/bill-duge/"
+							className="mx-2"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<i className="fab fa-linkedin highlight"></i>
 						</a>
-						<a href="mailto:billduge11@gmail.com" className="mx-2">
+						<a
+							href="mailto:billduge11@gmail.com"
+							className="mx-2"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<i className="fas fa-envelope highlight"></i>{" "}
 						</a>
 					</div>
