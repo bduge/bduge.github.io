@@ -9,7 +9,7 @@ class Header extends Component {
 					<div className="row d-flex justify-content-center fader">
 						<div className="col-md-4 col-7">
 							<img
-								className="img-fluid headshot mb-3 py-1"
+								className="img-fluid headshot mb-3 pb-1"
 								src={process.env.PUBLIC_URL + "/images/headshot.jpg"}
 								alt="Headshot"
 							></img>
