@@ -15,7 +15,7 @@ const experiences = [
 		location: "Remote",
 		date: "November 2019 - Present",
 		logo: "images/youreka.png",
-		role: "Software Developer",
+		role: "Software Engineer",
 		description: [
 			"Developed full stack web application using Django to organize the submission and evaluation of applicants, greatly increasing efficiency of application processing",
 			"Acting as technical consultant in meetings with organization executives to identify target areas which can be improved through software solutions",
@@ -38,7 +38,7 @@ const experiences = [
 		location: "Waterloo, Ontario",
 		date: "October 2018 - April 2019",
 		logo: "images/uw_robotics.png",
-		role: "Software Developer",
+		role: "Software Engineer",
 		description: [
 			"Developed software for a Mars rover to compete in the University Rover Challenge",
 			"Created GUI for the rover's control interface that displays real time input from an XBOX 360 controller using ROS and C++, providing a seamless interface for drivers",
