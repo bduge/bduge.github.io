@@ -222,10 +222,10 @@ const skills = [
 		icon: "fas fa-star-of-life",
 	},
 	{
-		name: "Backbone",
+		name: "Backbone.js",
 		type: "technology",
 		level: "proficient",
-		icon: "devicon-backbonejs-plain-wordmark colored",
+		icon: "devicon-backbonejs-plain colored",
 	},
 	{
 		name: "Electron",
