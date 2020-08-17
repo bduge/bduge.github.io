@@ -12,7 +12,6 @@ function App() {
 	return (
 		<div>
 			<Navbar />
-
 			<Header />
 			<div className="container">
 				<Experiences experiences={experiences} />

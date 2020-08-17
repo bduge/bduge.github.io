@@ -55,7 +55,7 @@ class Navbar extends Component {
 						<li className="nav-item">
 							<a
 								className="nav-link shortcut highlight"
-								href={process.env.PUBLIC_URL + "resume/billduge-resume.pdf"}
+								href={process.env.PUBLIC_URL + "resume/resume.pdf"}
 								target="_blank"
 								rel="noreferrer noopener"
 							>

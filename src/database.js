@@ -1,12 +1,15 @@
 const experiences = [
-	// {
-	// 	company: "Wish",
-	// 	location: "San Francisco, California",
-	// 	date: "May 2020 - Present",
-	// 	logo: "images/wish.png",
-	// 	role: "Software Engineer Intern",
-	// 	description: [],
-	// },
+	{
+		company: "Wish",
+		location: "San Francisco, California",
+		date: "May 2020 - August 2020",
+		logo: "images/wish.png",
+		role: "Software Engineer Intern",
+		description: [
+			"Built front end components and APIs for merchant facing web application used for managing products, shipments, and logistics tasks",
+			"Wrote one-off and scheduled scripts to complete database queries used to facilitate international and domestic shipping logistics",
+		],
+	},
 	{
 		company: "Youreka Canada",
 		location: "Remote",
@@ -149,15 +152,15 @@ const skills = [
 	{
 		name: "React",
 		type: "technology",
-		level: "proficient",
+		level: "experienced",
 		icon: "fab fa-react",
 	},
-	{
-		name: "Node.js",
-		type: "technology",
-		level: "experienced",
-		icon: "fab fa-node",
-	},
+	// {
+	// 	name: "Node.js",
+	// 	type: "technology",
+	// 	level: "experienced",
+	// 	icon: "fab fa-node",
+	// },
 	{
 		name: "Express",
 		type: "technology",
@@ -185,15 +188,15 @@ const skills = [
 	{
 		name: "MongoDB",
 		type: "technology",
-		level: "proficient",
+		level: "experienced",
 		icon: "devicon-mongodb-plain",
 	},
-	{
-		name: "Google Cloud",
-		type: "technology",
-		level: "proficient",
-		icon: "fas fa-cloud",
-	},
+	// {
+	// 	name: "Google Cloud",
+	// 	type: "technology",
+	// 	level: "proficient",
+	// 	icon: "fas fa-cloud",
+	// },
 	{
 		name: "jQuery",
 		type: "technology",
@@ -207,12 +210,6 @@ const skills = [
 		icon: "devicon-git-plain",
 	},
 	{
-		name: "Electron",
-		type: "technology",
-		level: "proficient",
-		icon: "icofont-electron",
-	},
-	{
 		name: "Selenium",
 		type: "technology",
 		level: "proficient",
@@ -223,6 +220,18 @@ const skills = [
 		type: "language",
 		level: "proficient",
 		icon: "fas fa-star-of-life",
+	},
+	{
+		name: "Backbone",
+		type: "technology",
+		level: "proficient",
+		icon: "devicon-backbonejs-plain-wordmark colored",
+	},
+	{
+		name: "Electron",
+		type: "technology",
+		level: "proficient",
+		icon: "icofont-electron",
 	},
 ];
 
