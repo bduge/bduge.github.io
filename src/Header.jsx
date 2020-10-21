@@ -58,7 +58,7 @@ class Header extends Component {
 								Scroll down to check out my previous work experiences and
 								projects! If you're interested in working with me or just want
 								to chat, feel free to send me an email at
-								<strong> billduge@gmail.com</strong> or a message on LinkedIn.
+								<strong> billduge11@gmail.com</strong> or a message on LinkedIn.
 							</p>
 						</div>
 					</div>
