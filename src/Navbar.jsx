@@ -59,7 +59,7 @@ class Navbar extends Component {
 								target="_blank"
 								rel="noreferrer noopener"
 							>
-								Résumé
+								Resume
 							</a>
 						</li>
 					</ul>

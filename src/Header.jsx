@@ -54,7 +54,7 @@ class Header extends Component {
 							</p>
 							<p>
 								I'm seeking a <strong>4 month internship </strong>
-								for Winter 2021 starting in <strong>January 2021</strong>.
+								for Fall 2021 starting in <strong>September 2021</strong>.
 								Scroll down to check out my previous work experiences and
 								projects! If you're interested in working with me or just want
 								to chat, feel free to send me an email at

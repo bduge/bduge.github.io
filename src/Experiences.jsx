@@ -15,6 +15,7 @@ class Experiences extends Component {
 					logo={process.env.PUBLIC_URL + experience.logo}
 					role={experience.role}
 					description={experience.description}
+					website={experience.website}
 				/>
 			);
 		});

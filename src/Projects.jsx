@@ -15,6 +15,8 @@ class Projects extends Component {
 					picture={process.env.PUBLIC_URL + project.picture}
 					github={project.github}
 					description={project.description}
+					link={project.link}
+					website={project.website}
 				/>
 			);
 		});
