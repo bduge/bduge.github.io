@@ -58,7 +58,7 @@ const projects = [
 		website: "juke-jam.com",
 		app_type: "Web Application",
 		github: "https://github.com/bduge/juke-jam",
-		picture: "images/juke-jam.png",
+		picture: "images/jukejam.png",
 		technologies: "React, Redux, Express, SocketIO, MongoDB",
 		description: `
 			Share the love of music with friends! Juke Jam allows users to create a private room, invite
