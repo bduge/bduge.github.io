@@ -20,9 +20,10 @@ class About extends Component {
 			<div id="about" className="jumptarget pb-5">
 				<h2 className="highlight my-4 ml-2 ml-sm-0">About Me</h2>
 				<p className="ml-2 ml-sm-0">
-					I'm a passionate software engineer but there's a lot more to life than working.
+					I'm a passionate software engineer but there's also a lot more to life than working.
 					Please feel free to read through this section if you're interested in learning
-					a bit more about me personally!
+					a bit more about me personally. Don't hesitate to reach out if you want to chat
+					about something non-work related!
 				</p>
 
 				<div>{rows}</div>

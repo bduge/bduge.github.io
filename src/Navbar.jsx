@@ -26,6 +26,7 @@ class Navbar extends Component {
 						<i className="fas fa-bars"></i>
 					</button>
 				</div>
+
 				<div id="navbarContent" className="collapse navbar-collapse">
 					<ul className="navbar-nav ml-auto">
 						<li className="nav-item">
@@ -51,7 +52,6 @@ class Navbar extends Component {
 								About
 							</a>
 						</li>
-
 						<li className="nav-item">
 							<a
 								className="nav-link shortcut highlight"

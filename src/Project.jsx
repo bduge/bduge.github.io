@@ -6,14 +6,15 @@ class Project extends Component {
 		return (
 			<div className="row d-flex justify-content-center justify-content-md-between my-5 fader">
 				<div className="col-11 col-md-7">
-					<div className="row d-flex justify-content-between align-items-end">
+					<div className="row d-flex justify-content-end align-items-center">
+						<h3 className="mr-auto mb-0">{this.props.name}</h3>
 						<a
 							href={this.props.github}
 							target="_blank"
 							rel="noreferrer noopener"
-							className="github-link"
+							className="mr-3"
 						>
-							<h3 className="">{this.props.name}</h3>
+							<i className="fab fa-github project-link"></i>
 						</a>
 						{this.props.link ? (
 						<a
@@ -22,16 +23,16 @@ class Project extends Component {
 							rel="noreferrer noopener"
 							className="github-link"
 						>
-							<h4 className="">{this.props.website}</h4>
+							<h4>{this.props.website}</h4>
 						</a>
 						) : (
 							<></>
 						)}
 					</div>
-					<div className="row d-flex justify-content-between align-items-end">
-						<h6>{this.props.app_type}</h6>
+					<div className="row d-flex justify-content-between">
+						<h6>{this.props.technologies}</h6>
 						<h6 className="d-none d-md-block float-right">
-							{this.props.technologies}
+							{this.props.app_type}
 						</h6>
 					</div>
 					<div className="row">

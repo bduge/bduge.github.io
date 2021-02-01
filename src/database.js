@@ -45,7 +45,7 @@ const experiences = [
 		logo: "images/uw_robotics.png",
 		role: "Software Engineer",
 		description: [
-			"Developed software for a Mars rover to compete in the University Rover Challenge",
+			"Developed C++ software for a Mars rover to compete in the University Rover Challenge",
 			"Created GUI for the rover's control interface that displays real time input from an XBOX 360 controller using ROS and C++, providing a seamless interface for drivers",
 		],
 	},
@@ -62,10 +62,10 @@ const projects = [
 		technologies: "React, Redux, Express, SocketIO, MongoDB",
 		description: `
 			Share the love of music with friends! Juke Jam allows users to create a private room, invite
-			their friends, and play music through their Spotify account. Invited guests can all add songs
-			to the queue where everyone can vote on it! The top voted ones will be pushed to the top of the
-			queue which determines the order songs are played in. This app works by making Spotify API calls
-			with an Express server. The client side application is created with React and Redux. Finally, everything is
+			their friends, and play music through their Spotify account. Invited guests can add songs
+			to the queue where everyone can vote on it! The top voted songs will appear at the top of the
+			queue which represents the order that songs will be played in. This app works by making Spotify API calls
+			with an Express server. The client side application was created with React and Redux. Finally, everything is
 			tied together using SocketIO, which syncs the client and server states in real time.
 		`,
 	},
@@ -77,9 +77,9 @@ const projects = [
 		technologies: "Python, Scikit-Learn",
 		description: `
 			Online communities provide a great platform for sharing and discussing ideas.
-			Unfortunately, cyberbullying remains a prevalent problem in many online groups.
-			This bot aims to tackle this issue in Reddit's comment sections by scrapping comments
-			from top posts on subreddits and running them through our trained nerual network engine
+			Unfortunately, cyberbullying is a serious problem in many online groups, which may deter
+			users from partipating. This bot aims to tackle this issue in Reddit's comment sections by 
+			scrapping comments from top posts on subreddits and running them through our trained nerual network engine
 			to detect instances of cyberbullying. The neural network was built using
 			Scikit-learn's ML training methods with a dataset of offensive words.
 		`,
@@ -91,11 +91,11 @@ const projects = [
 		picture: "images/stylist.jpeg",
 		technologies: "Django, Java, MySQL, Google Cloud, Tensorflow",
 		description: `
-			Stylist.ai is the perfect app for individuals who want to get their day going in a hurry and stay
-			stylish at the same time. The app stores a database of the user's clothing items and uses the current
+			Stylist.ai is the perfect app for individuals who want to get their day going in a hurry by saving time
+			when finding the perfect outfit. The app stores a database of the user's clothing items and uses the current
 			weather and personal preferences to recommend outfits to wear. Personal preferences are trained over time
 			in a neural network using tensor flow based on feedback of outfits given by the user. The server
-			is written in Python using the Django framework to store each user's data.
+			is written in Python using the Django framework manage the user's data.
 		`,
 	},
 	{
@@ -107,10 +107,10 @@ const projects = [
 		description: `
 			College students often find it to maintain friendships while in school. Study
 			buddy is an application that helps users make friends/meet people to study with
-			by filtering students in the area that are taking the similar courses and matches
+			by filtering students in the area that are taking similar courses and matches
 			students based on their profile. Our applicaiton uses Microsoft Azure's
 			machine learning string matching algorithm to provide a similarity rating between student's
-			interests to send each student their top matches, helping build meaningful and helpful connections
+			interests to send each student their top matches, helping to build meaningful and helpful connections
 			between students.
 		`,
 	},
@@ -310,11 +310,11 @@ const activities = [
 		description: `
 			I'm a huge fan of sports. I've made some of my best friends
 			through sports and it has always been a great way for me to stay fit and have fun.
-			I'm a huge basketball fan and always try to play pick up with friends when we have time, and I love watching and talking
+			I'm a huge basketball fan, I love playing pick up with friends and watching/talking
 			about the NBA.
-			I played soccer and badminton and served as the captain of both teams in high school although I don't
+			I also play soccer and badminton and was the captain of both teams in high school although I don't
 			have the chance to play as much anymore. Unless I'm super busy, I try to regularly go to the gym for workouts
-			around 3-4 times a week to help me stay in shape.
+			around 3-4 times a week to help me stay in shape. 
 		`,
 	},
 	// {
@@ -327,24 +327,24 @@ const activities = [
 		title: "Travel",
 		image: "images/travel.jpeg",
 		description: `
-			Travelling is an awesome way for me to spend time with my family since
-			I'm away studying in University. We can often become lost in our daily lives and forget
-			about the beautiful places that exist around us in the world. Travelling is something that
-			helps me remember this, and reminds me of the important things in life. The picture shown here was taken by me
-			in Jasper National Park in Canada which is definitely one of my favourite places to visit.
-			Some other great places that I've visited before are Italy, France, Yellowstone, and Hawaii.
+			A great quote I like is "travel is the only thing you buy that makes you richer".
+			I can often become lost in the haze of busy or stressful days. Travelling is something that
+			helps me take a break, reflect, and remember the important things in life. The picture
+			shown here was taken by me in Jasper National Park in Canada which is definitely one of my
+			favourite places to visit. There's many places I'd like to visit but the two near the
+			top of my list right now are Iceland and Japan.
 		`,
 	},
 	{
 		title: "Gaming",
 		image: "images/gaming.png",
 		description: `
-			Ever since I was a really young, I enjoyed playing video games in my free time. In fact,
+			Ever since I was really young, I enjoyed playing video games in my free time. In fact,
 			one of the original reasons why I wanted to learn coding was so I could make my own video games.
-			I love the idea of being able to immerse myself in a game's world, which all have different things to do
-			and quirks to discover. Some games are also a great way to have fun with friends, especially when you do
-			things together in person. Some of my favourite games I've recently played are Hollow Knight, Uncharted,
-			and Call of Duty!
+			I love being able to immerse myself in a game's world, which all have different things to do and explore.
+			Some games are also a great way to have fun with friends, especially when you can't do things together in
+			person. Some of my favourite games I've recently played are Hollow Knight, Uncharted,
+			and Call of Duty.
 		`
 	}
 ];
