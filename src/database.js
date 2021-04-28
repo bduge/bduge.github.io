@@ -59,8 +59,7 @@ const experiences = [
 			summary: `
 				Youreka is a non-profit organization aiming to provide educational programs for students to get involved
 				in scientific research. As a small but growing organization, my role was to provide software solutions to
-				streamline their work flows. I worked here remotely as a part time worked during my school terms to continue
-				my growth as a software engineer.
+				streamline their work flows. I worked here remotely as a part time employee for a few school terms.
 			`,
 			role: "Software Engineer",
 			date: "November 2019 - December 2020",
