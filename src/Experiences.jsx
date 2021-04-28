@@ -11,10 +11,8 @@ class Experiences extends Component {
 					key={experience.company}
 					company={experience.company}
 					location={experience.location}
-					date={experience.date}
 					logo={process.env.PUBLIC_URL + experience.logo}
-					role={experience.role}
-					description={experience.description}
+					terms={experience.terms}
 					website={experience.website}
 				/>
 			);

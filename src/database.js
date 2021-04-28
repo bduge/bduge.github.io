@@ -3,51 +3,132 @@ const experiences = [
 		company: "Wish",
 		website: "https://www.wish.com/companyinfo",
 		location: "San Francisco, California",
-		date: "May 2020 - August 2020 / January 2021 - April 2021",
 		logo: "images/wish.png",
-		role: "Software Engineer Intern",
-		description: [
-			"Built buy-again feature to recommend products with high reorder probability to customers by implementing APIs and managing recommendation data in Redux state, resulting in increased item purchases",
-			"Developed user facing web features on both desktop and mobile clients using React and Redux in TypeScript, improving the post-purchase user experience",
-			"Created Python services to resolve shipment issues, gather shipping data, and optimize item packaging to facilitate efficient shipping",
-			"Developed APIs to generate product recommendations for different shipment fulfillment options that merchants can use to improve delivery speed",
-		],
+		terms: [{
+			summary: `
+				This was the second term that I worked at Wish. I transfered to the product web team and specifically,
+				I worked in the post purchase / customer experience pod where I was able to work on a lot of interesting
+				features and solve challenging problems. I recieved an 'Excellent' from my mentor for my final evaluation.
+			`,
+			date: "January 2021 - April 2021",
+			role: "Software Engineer Intern  |  Product Web Team",
+			description: [
+				`
+					Completed a scratch card component and integrated with internal payment system to distribute discount and
+					cash incentives to improve customer retention after delayed shipments
+				`,
+				`
+					Built buy-again feed to recommend products based on reorder probability data, resulting in an increase in
+					company GMV and implemented lazy loading on order history page to improve loading times by 50%
+				`,
+				`
+					Worked efficiently in scrum environment across teams with both technical and non-technical stakeholders to
+					deliver product features for desktop and mobile clients using Python and TypeScript (React and Redux)
+				`,
+			],
+		}, {
+			date: "May 2020 - August 2020",
+			role: "Software Engineer Intern  |  Logistics Team",
+			summary: `
+				The logistics team at Wish works to facilitating shipments throughout the entire process of
+				handling deliveries to and from merchants, warehosues, stores, and customers. There were also additional
+				challenges facing our supply chain due to the COVID-19 pandemic. At the end of this term, I recieved an 'Outstanding'
+				evaluation, the highest possible score.
+			`,
+			description: [
+				`
+					Created Python services to resolve shipment issues, gather shipping data, and optimize item packaging
+					to facilitate shipping, which often required writing efficient queries for MongoDB and SQL databases
+				`,
+				`
+					Developed APIs to generate product recommendations for different shipment fulfillment options that merchants
+					can select to improve delivery
+				`,
+				`
+					Improved our merchant dashboard by building new React components to modernize the user experience
+				`,
+			],
+		}]
 	},
 	{
 		company: "Youreka Canada",
 		website: "https://yourekacanada.org",
 		location: "Remote",
-		date: "November 2019 - December 2020",
-		logo: "images/youreka.png",
-		role: "Software Engineer",
-		description: [
-			"Designed and built a full stack application with Django and MySQL from the ground up, allowing employees to evaluate program applicants on an organized platform, increasing the efficiency of application processing by 30%",
-			"Acted as technical consultant in meetings with organization executives to identify target areas which can be improved through software solutions",
-		],
+		logo: "images/youreka.png",	
+		terms: [{
+			summary: `
+				Youreka is a non-profit organization aiming to provide educational programs for students to get involved
+				in scientific research. As a small but growing organization, my role was to provide software solutions to
+				streamline their work flows. I worked here remotely as a part time worked during my school terms to continue
+				my growth as a software engineer.
+			`,
+			role: "Software Engineer",
+			date: "November 2019 - December 2020",
+			description: [
+				`
+					Designed and built a full stack application with Django and MySQL from the ground up, allowing employees
+					to evaluate program applicants on an organized platform, increasing the efficiency of application processing by 30%
+				`,
+				`
+					Oversaw site deployment, hosting, and maintenance processes to ensure a smooth roll-out to employees once recruiting began
+				`,
+				`
+					Acted as technical consultant in meetings with organization executives to identify target areas which can be
+					improved through software solutions
+				`,
+			],
+		}]
 	},
 	{
 		company: "Connected",
 		website: "https://www.connected.io",
 		location: "Toronto, Ontario",
-		date: "May 2019 - August 2019",
 		logo: "images/connected.png",
-		role: "QA Automation Developer Intern",
-		description: [
-			"Spearheaded development of a Python command line tool to automate submitting test results online, reducing time spent on QA testing by over 40%",
-			"Built desktop application using Electron to test Alexa voice applications, providing a framework to easily test different conversation flows and quickly view results after executing tests",
-		],
+		terms: [{
+			summary: `
+				This was my first internship and an great introduction for me to a professional work environment in the
+				tech industry. Connected is a medium sized start up with around 200 employees when I worked there. Despite their
+				small size, they work on projects for many high profile clients. At the end of this term, I recieved an
+				'Excellent' evaluation from my manager.
+			`,
+			date: "May 2019 - August 2019",
+			role: "QA Automation Developer Intern",
+			description: [
+				`
+					Spearheaded development of a Python command line tool to automate submitting test results online,
+					reducing time spent on QA testing by over 40%
+				`,
+				`
+					Built desktop application using Electron to test Alexa voice applications, providing a framework to
+					easily test different conversation flows and quickly view results after executing tests
+				`,
+				`
+					Wrote automated scripts using Selenium to perform tasks and tests different cases during each sprint's testing phase
+				`,
+			],
+		}]
 	},
 	{
 		company: "University of Waterloo Robotics Team",
 		website: "https://uwrobotics.uwaterloo.ca/",
 		location: "Waterloo, Ontario",
-		date: "October 2018 - April 2019",
 		logo: "images/uw_robotics.png",
-		role: "Software Engineer",
-		description: [
-			"Developed C++ software for a Mars rover to compete in the University Rover Challenge",
-			"Created GUI for the rover's control interface that displays real time input from an XBOX 360 controller using ROS and C++, providing a seamless interface for drivers",
-		],
+		terms: [{
+			summary: `
+				I joined the software team for the robotics club during my first year at University. I made some great friends and had a
+				positive experience overall working on our Mars rover project which was sent to compete in the University Rover Challenge.
+			`,
+			date: "October 2018 - April 2019",
+			role: "Software Engineer",
+			description: [
+				`
+					Created GUI for the rover's control interface that displays real time input from an XBOX 360 controller using ROS and C++, providing a seamless interface for drivers
+				`,
+				`
+					Participated in code review sessions to find areas of improvement in performance and maintainability to follow coding best practices
+				`,
+			],
+		}]
 	},
 ];
 
@@ -199,12 +280,12 @@ const skills = [
 		level: "proficient",
 		icon: "fas fa-database",
 	},
-	{
-		name: "Bash",
-		type: "language",
-		level: "proficient",
-		icon: "fas fa-dollar-sign",
-	},
+	// {
+	// 	name: "Bash",
+	// 	type: "language",
+	// 	level: "proficient",
+	// 	icon: "fas fa-dollar-sign",
+	// },
 	{
 		name: "React",
 		type: "technology",
@@ -289,12 +370,12 @@ const skills = [
 		level: "proficient",
 		icon: "devicon-amazonwebservices-original",
 	},
-	{
-		name: "Selenium",
-		type: "technology",
-		level: "proficient",
-		icon: "fas fa-mouse-pointer",
-	},
+	// {
+	// 	name: "Selenium",
+	// 	type: "technology",
+	// 	level: "proficient",
+	// 	icon: "fas fa-mouse-pointer",
+	// },
 	{
 		name: "Electron",
 		type: "technology",
@@ -305,16 +386,15 @@ const skills = [
 
 const activities = [
 	{
-		title: "Sports",
+		title: "Staying Active",
 		image: "images/soccer.jpg",
 		description: `
-			I'm a huge fan of sports. I've made some of my best friends
-			through sports and it has always been a great way for me to stay fit and have fun.
-			I'm a huge basketball fan, I love playing pick up with friends and watching/talking
-			about the NBA.
+			I'm a huge fan of sports, I've made some great friends
+			by playing on teams and it's always been a great way for me to stay fit and have fun.
+			I'm a big basketball fan, I love playing with my friends and watching the NBA.
 			I also play soccer and badminton and was the captain of both teams in high school although I don't
-			have the chance to play as much anymore. Unless I'm super busy, I try to regularly go to the gym for workouts
-			around 3-4 times a week to help me stay in shape. 
+			have the chance to play as much anymore. Outside of just sports, I place a lot of value in taking care of my body
+			which helps me be in a good mood and stay productive. Because of this, I try to workout or go on runs as much as I can. 
 		`,
 	},
 	// {
@@ -324,14 +404,13 @@ const activities = [
 	// 		"I first joined debate club to improve my public speaking but I quickly discovered that it was a rewarding and fun extracirricular that helps me stay educated on current events and issues. I participated as a member on my high school's speech and debate team and returned to my middle school as a volunteer coach. I also enjoyed participating in various other events including HSMUN and Mock Trials.",
 	// },
 	{
-		title: "Travel",
+		title: "Travelling",
 		image: "images/travel.jpeg",
 		description: `
-			A great quote I like is "travel is the only thing you buy that makes you richer".
-			I can often become lost in the haze of busy or stressful days. Travelling is something that
-			helps me take a break, reflect, and remember the important things in life. The picture
-			shown here was taken by me in Jasper National Park in Canada which is definitely one of my
-			favourite places to visit. There's many places I'd like to visit but the two near the
+			Here's a quote that I really like: "Travel is the only thing you buy that makes you richer".
+			I'm often caught up in the stress of work and school, but travelling is something that
+			helps me take a break and reflect. This picture was taken by me in Jasper National Park in Canada which is definitely one of my
+			favourite places to visit. There's a lot of places I'd like to visit but the two near the
 			top of my list right now are Iceland and Japan.
 		`,
 	},
@@ -339,12 +418,11 @@ const activities = [
 		title: "Gaming",
 		image: "images/gaming.png",
 		description: `
-			Ever since I was really young, I enjoyed playing video games in my free time. In fact,
-			one of the original reasons why I wanted to learn coding was so I could make my own video games.
-			I love being able to immerse myself in a game's world, which all have different things to do and explore.
-			Some games are also a great way to have fun with friends, especially when you can't do things together in
-			person. Some of my favourite games I've recently played are Hollow Knight, Uncharted,
-			and Call of Duty.
+			Since I was really young, I've enjoyed playing video games in my free time. One of the first reasons 
+			I wanted to learn how to code was to learn how to make my own games. I especially enjoy difficult games that challenge me
+			to master their mechanics, which feel very rewarding when they are finally beaten.
+			Games are also a great way for me to relieve stress and stay connected with my friends when I can't see them in person.
+			Some of my favourite games I've recently played are Hollow Knight, Uncharted, and COD.
 		`
 	}
 ];

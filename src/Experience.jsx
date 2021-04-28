@@ -3,14 +3,29 @@ import "./Experience.css";
 
 class Experience extends Component {
 	render() {
-		const description = this.props.description;
-		const bulletPoints = description.map((bullet) => {
-			return <p key={bullet}>• {bullet}</p>;
-		});
+		const terms = this.props.terms;
+		const sections = terms.map((term) => {
+			const description = term.description;
+			const bulletPoints = description.map((bullet) => {
+				return <p key={bullet}>• {bullet}</p>;
+			});
+			return (
+				<div className="mb-5">
+					<div className="row d-flex justify-content-between align-items-center mb-2">
+						<h5 className="role-label mr-2">{term.role}</h5>
+						<h6 className="float-left float-md-right">{term.date}</h6>
+					</div>
+					<div className="job-description">
+						<p className="term-summary">{term.summary}</p>
+						{bulletPoints}
+					</div>
+				</div>
+			)
+		})
 
 		return (
 			<div className="row d-flex justify-content-center justify-content-md-between my-5 fader">
-				<div className="col-12 col-md-4 px-5 mx-5 mx-md-0 px-md-0">
+				<div className="col-12 col-md-3 px-5 mx-5 mx-md-0 px-md-0">
 					<a
 						href={this.props.website}
 						target="_blank"
@@ -24,18 +39,14 @@ class Experience extends Component {
 						/>
 					</a>
 				</div>
-				<div className="col-11 col-md-7">
-					<div className="row d-flex justify-content-between align-items-end">
-						<h4>{this.props.company}</h4>
+				<div className="col-11 col-md-8">
+					<div className="row d-flex justify-content-between align-items-center mb-2">
+						<h3 className="mr-2">{this.props.company}</h3>
 						<h6 className="d-none d-md-block float-right">
 							{this.props.location}
 						</h6>
 					</div>
-					<div className="row d-flex justify-content-between align-items-end">
-						<h5>{this.props.role}</h5>
-						<h6 className="float-left float-md-right">{this.props.date}</h6>
-					</div>
-					<div className="job-description">{bulletPoints}</div>
+					{sections}
 				</div>
 			</div>
 		);

@@ -1,3 +1,12 @@
-.job-description {
-	padding-top: 2%;
+
+p {
+	margin-bottom: 0.7rem !important;
+}
+
+.role-label {
+	white-space: pre-wrap;
+}
+
+.term-summary {
+	font-weight: 600;
 }
