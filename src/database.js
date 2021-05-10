@@ -14,12 +14,12 @@ const experiences = [
 			role: "Software Engineer Intern  |  Product Web Team",
 			description: [
 				`
-					Completed a scratch card component and integrated with internal payment system to distribute discount and
-					cash incentives to improve customer retention after delayed shipments
+					Built buy-again feed to recommend products based on reorder probability data leading to an increase in company GMV,
+					and implemented lazy loading on the order history page to improve buy-again loading times by 50%
 				`,
 				`
-					Built buy-again feed to recommend products based on reorder probability data, resulting in an increase in
-					company GMV and implemented lazy loading on order history page to improve loading times by 50%
+					Developed a React scratch card and backend APIs to integrate with payment systems to distribute
+					discount and cashincentives to improve customer retention
 				`,
 				`
 					Worked efficiently in scrum environment across teams with both technical and non-technical stakeholders to
@@ -37,15 +37,16 @@ const experiences = [
 			`,
 			description: [
 				`
-					Created Python services to resolve shipment issues, gather shipping data, and optimize item packaging
-					to facilitate shipping, which often required writing efficient queries for MongoDB and SQL databases
+					Created Python services to correct shipment data inconsistencies, identify store pickup performance,
+					and optimize item packing for shipping, requiring complex and efficient SQL and MongoDB queries
 				`,
 				`
-					Developed APIs to generate product recommendations for different shipment fulfillment options that merchants
-					can select to improve delivery
+					Developed APIs to provide merchants with product recommendations for different
+					shipment fulfillment options to improve delivery speed and cost
 				`,
 				`
-					Improved our merchant dashboard by building new React components to modernize the user experience
+					Improved the merchant dashboard by building new shipping fulfillment
+					pages with React to create a modern user interface
 				`,
 			],
 		}]
@@ -65,15 +66,14 @@ const experiences = [
 			date: "November 2019 - December 2020",
 			description: [
 				`
-					Designed and built a full stack application with Django and MySQL from the ground up, allowing employees
-					to evaluate program applicants on an organized platform, increasing the efficiency of application processing by 30%
+					Designed and built a full stack application with Django and MySQL from the ground up, allowing employees to evaluate
+					student applications on an end-to-end online platform, increasing the efficiency of application processing by 40%
 				`,
 				`
-					Oversaw site deployment, hosting, and maintenance processes to ensure a smooth roll-out to employees once recruiting began
+					Oversaw site deployment, hosting, and maintenance processes to ensure a smooth roll-out to Youreka employees once recruiting began
 				`,
 				`
-					Acted as technical consultant in meetings with organization executives to identify target areas which can be
-					improved through software solutions
+					Worked with organization executives as a technical consultant to identify keys areas to improve through software solutions
 				`,
 			],
 		}]
@@ -94,15 +94,12 @@ const experiences = [
 			role: "QA Automation Developer Intern",
 			description: [
 				`
-					Spearheaded development of a Python command line tool to automate submitting test results online,
-					reducing time spent on QA testing by over 40%
+					Built a cross platform desktop application using Electron for testing Amazon Alexa voice applications,
+					providing a framework to easily test different conversation flows and reduced time spent on writing tests by 30%
 				`,
 				`
-					Built desktop application using Electron to test Alexa voice applications, providing a framework to
-					easily test different conversation flows and quickly view results after executing tests
-				`,
-				`
-					Wrote automated scripts using Selenium to perform tasks and tests different cases during each sprint's testing phase
+					Spearheaded development of a Python command line tool to automate submitting test suite results, reducing time spent
+					on mobile QA testing by 40%
 				`,
 			],
 		}]
@@ -150,6 +147,20 @@ const projects = [
 		`,
 	},
 	{
+		name: "Photo Spot",
+		app_type: "Web Application",
+		github: "https://github.com/bduge/Photo-Spot",
+		picture: "images/photospot.png",
+		technologies: "Golang, MongoDB, Bootstrap",
+		description: `
+			Photo Spot is the perfect website to host, enter, and view photo contests. No matter what photos you're
+			interested in, you will find something for you! Users can compete to win contest by submitting their best
+			photos. Winners are determined by votes by other users who can view all the entries and choose their favourite.
+			The app runs on a Golang server with a full user authentication system using Gorilla's sessions library. Images
+			are stored on the servers file system and other data is stored in a NoSQL database using MongoDB.
+		`
+	},
+	{
 		name: "Cyberbullying Detection Bot",
 		app_type: "Python Bot",
 		github: "https://github.com/bduge/Cyberbullying-Detection-Bot",
@@ -166,7 +177,7 @@ const projects = [
 	},
 	{
 		name: "Stylist.ai",
-		app_type: "Mobile Application",
+		app_type: "Android Application",
 		github: "https://github.com/SamYu/stylist.ai",
 		picture: "images/stylist.jpeg",
 		technologies: "Django, Java, MySQL, Google Cloud, Tensorflow",
