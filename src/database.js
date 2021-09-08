@@ -1,5 +1,19 @@
 const experiences = [
 	{
+		company: "Shopify",
+		website: "https://www.shopify.ca/",
+		location: "Waterloo, Ontario",
+		logo: "images/shopify.png",
+		terms: [{
+			summary: `
+				Incoming backend developer intern on the Payments Platform team
+			`,
+			date: "September 2021 - December 2021",
+			role: "Backend Developer Intern",
+			description: [],
+		}]
+	},
+	{
 		company: "Wish",
 		website: "https://www.wish.com/companyinfo",
 		location: "San Francisco, California",
@@ -104,28 +118,28 @@ const experiences = [
 			],
 		}]
 	},
-	{
-		company: "University of Waterloo Robotics Team",
-		website: "https://uwrobotics.uwaterloo.ca/",
-		location: "Waterloo, Ontario",
-		logo: "images/uw_robotics.png",
-		terms: [{
-			summary: `
-				I joined the software team for the robotics club during my first year at University. I made some great friends and had a
-				positive experience overall working on our Mars rover project which was sent to compete in the University Rover Challenge.
-			`,
-			date: "October 2018 - April 2019",
-			role: "Software Engineer",
-			description: [
-				`
-					Created GUI for the rover's control interface that displays real time input from an XBOX 360 controller using ROS and C++, providing a seamless interface for drivers
-				`,
-				`
-					Participated in code review sessions to find areas of improvement in performance and maintainability to follow coding best practices
-				`,
-			],
-		}]
-	},
+	// {
+	// 	company: "University of Waterloo Robotics Team",
+	// 	website: "https://uwrobotics.uwaterloo.ca/",
+	// 	location: "Waterloo, Ontario",
+	// 	logo: "images/uw_robotics.png",
+	// 	terms: [{
+	// 		summary: `
+	// 			I joined the software team for the robotics club during my first year at University. I made some great friends and had a
+	// 			positive experience overall working on our Mars rover project which was sent to compete in the University Rover Challenge.
+	// 		`,
+	// 		date: "October 2018 - April 2019",
+	// 		role: "Software Engineer",
+	// 		description: [
+	// 			`
+	// 				Created GUI for the rover's control interface that displays real time input from an XBOX 360 controller using ROS and C++, providing a seamless interface for drivers
+	// 			`,
+	// 			`
+	// 				Participated in code review sessions to find areas of improvement in performance and maintainability to follow coding best practices
+	// 			`,
+	// 		],
+	// 	}]
+	// },
 ];
 
 const projects = [
@@ -285,6 +299,12 @@ const skills = [
 		icon: "fab fa-java",
 	},
 	{
+		name: "Ruby",
+		type: "language",
+		level: "proficient",
+		icon: "devicon-ruby-plain",
+	},
+	{
 		name: "SQL",
 		type: "language",
 		level: "proficient",
@@ -351,6 +371,12 @@ const skills = [
 	// 	icon: "fas fa-cloud",
 	// },
 	{
+		name: "Ruby on Rails",
+		type: "technology",
+		level: "proficient",
+		icon: "devicon-rails-plain",
+	},
+	{
 		name: "jQuery",
 		type: "technology",
 		level: "proficient",
@@ -386,12 +412,12 @@ const skills = [
 	// 	level: "proficient",
 	// 	icon: "fas fa-mouse-pointer",
 	// },
-	{
-		name: "Electron",
-		type: "technology",
-		level: "proficient",
-		icon: "icofont-electron",
-	},
+	// {
+	// 	name: "Electron",
+	// 	type: "technology",
+	// 	level: "proficient",
+	// 	icon: "icofont-electron",
+	// },
 ];
 
 const activities = [
