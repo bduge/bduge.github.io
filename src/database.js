@@ -426,12 +426,10 @@ const activities = [
 		title: "Staying Active",
 		image: "images/soccer.jpg",
 		description: `
-			I'm a huge fan of sports, I've made some great friends
-			by playing on teams and it's always been a great way for me to stay fit and have fun.
-			I'm a big basketball fan, I love playing with my friends and watching the NBA.
-			I also play soccer and badminton and was the captain of both teams in high school although I don't
-			have the chance to play as much anymore. Outside of just sports, I place a lot of value in taking care of my body
-			which helps me be in a good mood and stay productive. Because of this, I try to workout or go on runs as much as I can. 
+			I've made a lot of great friends through sports and it's also been a great way for me to stay fit.
+			I really enjoy basketball, I love playing with my friends as well as watching NBA games.
+			I also play soccer and badminton and was the captain of both teams in high school. Outside of just sports, I place a lot of value in taking care of my body
+			which helps me stay in a positive mindset. Because of this, I try to workout and go on runs as much as I can. 
 		`,
 	},
 	// {
@@ -444,8 +442,7 @@ const activities = [
 		title: "Travelling",
 		image: "images/travel.jpeg",
 		description: `
-			Here's a quote that I really like: "Travel is the only thing you buy that makes you richer".
-			I'm often caught up in the stress of work and school, but travelling is something that
+			It's easy to get caught up with the stress of work and school but travelling is something that
 			helps me take a break and reflect. This picture was taken by me in Jasper National Park in Canada which is definitely one of my
 			favourite places to visit. There's a lot of places I'd like to visit but the two near the
 			top of my list right now are Iceland and Japan.
@@ -456,10 +453,10 @@ const activities = [
 		image: "images/gaming.png",
 		description: `
 			Since I was really young, I've enjoyed playing video games in my free time. One of the first reasons 
-			I wanted to learn how to code was to learn how to make my own games. I especially enjoy difficult games that challenge me
-			to master their mechanics, which feel very rewarding when they are finally beaten.
-			Games are also a great way for me to relieve stress and stay connected with my friends when I can't see them in person.
-			Some of my favourite games I've recently played are Hollow Knight, Uncharted, and COD.
+			I wanted to learn how to code was to learn how to make my own games. I enjoy difficult games that challenge me
+			to master their mechanics which feels extra rewarding when I can beat them.
+			Games are also a great way for me to relieve stress and stay connected with my friends virtually.
+			Some of my favourite games are Hollow Knight, Uncharted, and COD.
 		`
 	}
 ];
