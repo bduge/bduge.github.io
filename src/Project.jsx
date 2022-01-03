@@ -4,7 +4,7 @@ import "./Project.css";
 class Project extends Component {
 	render() {
 		return (
-			<div className="row d-flex justify-content-center justify-content-md-between my-5 fader">
+			<div className="row d-flex justify-content-center justify-content-md-between mb-5 fader">
 				<div className="col-11 col-md-7">
 					<div className="row d-flex justify-content-end align-items-center">
 						<h3 className="mr-auto mb-0">{this.props.name}</h3>

@@ -10,7 +10,7 @@ class Header extends Component {
 						<div className="col-md-4 col-7">
 							<img
 								className="img-fluid headshot mb-3 pb-1"
-								src={process.env.PUBLIC_URL + "/images/headshot.jpg"}
+								src={process.env.PUBLIC_URL + "/images/headshot.png"}
 								alt="Headshot"
 							></img>
 						</div>
@@ -47,18 +47,35 @@ class Header extends Component {
 					<div className="row d-flex justify-content-center fader">
 						<div className="col-10 col-md-8">
 							<p>
-								Hi there, thanks for visiting my website! My name is Bill and
-								I'm a <strong>software engineer</strong>. I'm currently in my
+								Hey there, thanks for visiting my website! My name is Bill and
+								I'm a <strong>student</strong> and <strong>software engineer</strong>. I'm currently in my
 								4th year of studying <strong>Computer Science</strong> in the
-								Co-op program at the <strong>University of Waterloo</strong>.
+								co-op program at the <strong>University of Waterloo</strong>.
 							</p>
 							<p>
-								I'm currently seeking a <strong>4 to 8 month internship </strong>
-								for Summer 2022 starting in <strong>May 2022</strong>.
+								I'm currently seeking a <strong>4 month</strong> internship
+								for Fall 2022 starting in <strong>September 2022</strong>.
 								Scroll down to check out my previous work experiences and
-								projects! If you're interested in working with me or just want
-								to chat, feel free to send me an email at
-								<strong> billduge11@gmail.com</strong> or a message on LinkedIn.
+								projects! If you're interested in connecting with me, feel free
+								to send me an email at
+								<a
+									style={{fontSize: "1em", color: "inherit"}}
+									href="mailto:billduge11@gmail.com"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<strong> billduge11@gmail.com </strong> 
+								</a>
+								or a message on 
+								<a
+									style={{fontSize: "1em", color: "inherit"}}
+									href="https://www.linkedin.com/in/bill-duge/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<strong> LinkedIn</strong>
+								</a>
+								.
 							</p>
 						</div>
 					</div>

@@ -7,7 +7,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 let faders = document.querySelectorAll(".fader");
 let scrollOptions = {
-	threshold: 0.3,
+	threshold: 0.2,
 	rootMargin: "-75px 0px 0px 0px",
 };
 let scrollObserver = new IntersectionObserver((faders, scrollObserver) => {

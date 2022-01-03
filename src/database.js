@@ -1,16 +1,41 @@
 const experiences = [
 	{
+		company: "Databricks",
+		website: "https://databricks.com/",
+		location: "San Francisco, California",
+		logo: "images/databricks.png",
+		terms: [{
+			date: "May 2022 - August 2022",
+			role: "Incoming Software Engineer Intern",
+			description: [],
+		}]
+	},
+	{
 		company: "Shopify",
 		website: "https://www.shopify.ca/",
-		location: "Waterloo, Ontario",
+		location: "Remote 'Digital by Default'",
 		logo: "images/shopify.png",
 		terms: [{
 			summary: `
-				Incoming backend developer intern on the Payments Platform team
+				During my term at Shopify, I worked on the Payments Platform "Akatsuki" team. Throughout the term, I learned
+				a lot about payments systems and was able to work in-depth on a brand new feature. The highlight of the term was
+				our trip to Montreal!
 			`,
 			date: "September 2021 - December 2021",
 			role: "Backend Developer Intern",
-			description: [],
+			description: [
+				`
+					Worked end-to-end on GraphQL API, Rails services, and MySQL migrations to add new payment notifications
+					flow into the Payments Partners Platform for re-conciliating data updates from payment processors
+				`,
+				`
+					Added new error handling logic for Shopify's payment integration with PayPal and Facebook Marketplace
+					for improved visibility across companies
+				`,
+				`
+					Collaborated with team to refactor GraphQL and SQL schemas to improve code clarity and performance
+				`
+			],
 		}]
 	},
 	{
@@ -22,7 +47,7 @@ const experiences = [
 			summary: `
 				This was the second term that I worked at Wish. I transfered to the product web team and specifically,
 				I worked in the post purchase / customer experience pod where I was able to work on a lot of interesting
-				features and solve challenging problems. I recieved an 'Excellent' from my mentor for my final evaluation.
+				features and solve challenging problems.
 			`,
 			date: "January 2021 - April 2021",
 			role: "Software Engineer Intern  |  Product Web Team",
@@ -46,8 +71,7 @@ const experiences = [
 			summary: `
 				The logistics team at Wish works to facilitating shipments throughout the entire process of
 				handling deliveries to and from merchants, warehosues, stores, and customers. There were also additional
-				challenges facing our supply chain due to the COVID-19 pandemic. At the end of this term, I recieved an 'Outstanding'
-				evaluation, the highest possible score.
+				challenges facing our supply chain due to the COVID-19 pandemic.
 			`,
 			description: [
 				`
@@ -101,8 +125,7 @@ const experiences = [
 			summary: `
 				This was my first internship and an great introduction for me to a professional work environment in the
 				tech industry. Connected is a medium sized start up with around 200 employees when I worked there. Despite their
-				small size, they work on projects for many high profile clients. At the end of this term, I recieved an
-				'Excellent' evaluation from my manager.
+				small size, they work on projects for many high profile clients.
 			`,
 			date: "May 2019 - August 2019",
 			role: "QA Automation Developer Intern",
@@ -118,28 +141,6 @@ const experiences = [
 			],
 		}]
 	},
-	// {
-	// 	company: "University of Waterloo Robotics Team",
-	// 	website: "https://uwrobotics.uwaterloo.ca/",
-	// 	location: "Waterloo, Ontario",
-	// 	logo: "images/uw_robotics.png",
-	// 	terms: [{
-	// 		summary: `
-	// 			I joined the software team for the robotics club during my first year at University. I made some great friends and had a
-	// 			positive experience overall working on our Mars rover project which was sent to compete in the University Rover Challenge.
-	// 		`,
-	// 		date: "October 2018 - April 2019",
-	// 		role: "Software Engineer",
-	// 		description: [
-	// 			`
-	// 				Created GUI for the rover's control interface that displays real time input from an XBOX 360 controller using ROS and C++, providing a seamless interface for drivers
-	// 			`,
-	// 			`
-	// 				Participated in code review sessions to find areas of improvement in performance and maintainability to follow coding best practices
-	// 			`,
-	// 		],
-	// 	}]
-	// },
 ];
 
 const projects = [
@@ -203,22 +204,22 @@ const projects = [
 			is written in Python using the Django framework manage the user's data.
 		`,
 	},
-	{
-		name: "Study Buddy",
-		app_type: "Mobile Web Application",
-		github: "https://github.com/karkevin/Study-Buddies",
-		picture: "images/temp.png",
-		technologies: "ExpressJS, NodeJS, Firebase, Azure, HMTL, CSS",
-		description: `
-			College students often find it to maintain friendships while in school. Study
-			buddy is an application that helps users make friends/meet people to study with
-			by filtering students in the area that are taking similar courses and matches
-			students based on their profile. Our applicaiton uses Microsoft Azure's
-			machine learning string matching algorithm to provide a similarity rating between student's
-			interests to send each student their top matches, helping to build meaningful and helpful connections
-			between students.
-		`,
-	},
+	// {
+	// 	name: "Study Buddy",
+	// 	app_type: "Mobile Web Application",
+	// 	github: "https://github.com/karkevin/Study-Buddies",
+	// 	picture: "images/temp.png",
+	// 	technologies: "ExpressJS, NodeJS, Firebase, Azure, HMTL, CSS",
+	// 	description: `
+	// 		College students often find it to maintain friendships while in school. Study
+	// 		buddy is an application that helps users make friends/meet people to study with
+	// 		by filtering students in the area that are taking similar courses and matches
+	// 		students based on their profile. Our applicaiton uses Microsoft Azure's
+	// 		machine learning string matching algorithm to provide a similarity rating between student's
+	// 		interests to send each student their top matches, helping to build meaningful and helpful connections
+	// 		between students.
+	// 	`,
+	// },
 	// {
 	// 	name: "Skin Profile",
 	// 	app_type: "Web Application",
@@ -275,6 +276,12 @@ const skills = [
 		icon: "devicon-typescript-plain",
 	},
 	{
+		name: "Ruby",
+		type: "language",
+		level: "experienced",
+		icon: "devicon-ruby-plain",
+	},
+	{
 		name: "HTML/CSS",
 		type: "language",
 		level: "experienced",
@@ -297,12 +304,6 @@ const skills = [
 		type: "language",
 		level: "proficient",
 		icon: "fab fa-java",
-	},
-	{
-		name: "Ruby",
-		type: "language",
-		level: "proficient",
-		icon: "devicon-ruby-plain",
 	},
 	{
 		name: "SQL",
@@ -337,7 +338,7 @@ const skills = [
 	{
 		name: "Express",
 		type: "technology",
-		level: "experienced",
+		level: "proficient",
 		icon: "devicon-express-original",
 	},
 	{
@@ -373,7 +374,7 @@ const skills = [
 	{
 		name: "Ruby on Rails",
 		type: "technology",
-		level: "proficient",
+		level: "experienced",
 		icon: "devicon-rails-plain",
 	},
 	{
@@ -388,36 +389,36 @@ const skills = [
 	// 	level: "experienced",
 	// 	icon: "devicon-git-plain",
 	// },
-	{
-		name: "Kubernetes",
-		type: "technology",
-		level: "proficient",
-		icon: "devicon-kubernetes-plain",
-	},
-	{
-		name: "Docker",
-		type: "technology",
-		level: "proficient",
-		icon: "devicon-docker-plain",
-	},
+	// {
+	// 	name: "Kubernetes",
+	// 	type: "technology",
+	// 	level: "proficient",
+	// 	icon: "devicon-kubernetes-plain",
+	// },
+	// {
+	// 	name: "Docker",
+	// 	type: "technology",
+	// 	level: "proficient",
+	// 	icon: "devicon-docker-plain",
+	// },
 	{
 		name: "AWS",
 		type: "technology",
 		level: "proficient",
 		icon: "devicon-amazonwebservices-original",
 	},
-	// {
-	// 	name: "Selenium",
-	// 	type: "technology",
-	// 	level: "proficient",
-	// 	icon: "fas fa-mouse-pointer",
-	// },
-	// {
-	// 	name: "Electron",
-	// 	type: "technology",
-	// 	level: "proficient",
-	// 	icon: "icofont-electron",
-	// },
+	{
+		name: "Selenium",
+		type: "technology",
+		level: "proficient",
+		icon: "fas fa-mouse-pointer",
+	},
+	{
+		name: "Electron",
+		type: "technology",
+		level: "proficient",
+		icon: "icofont-electron",
+	},
 ];
 
 const activities = [

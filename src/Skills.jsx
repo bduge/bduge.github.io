@@ -29,8 +29,8 @@ class Skills extends Component {
 		);
 
 		return (
-			<div id="skills" className="jumptarget">
-				<h2 className="highlight ml-2 ml-sm-0">Skills</h2>
+			<div id="skills" className="mb-5 jumptarget">
+				<h2 className="highlight ml-sm-0">Skills</h2>
 				<div className="row d-flex">
 					<div className="col-12 col-md-6">
 						<h3 className="mt-2 mb-3">Lanugages</h3>

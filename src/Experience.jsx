@@ -25,7 +25,7 @@ class Experience extends Component {
 
 		return (
 			<div className="row d-flex justify-content-center justify-content-md-between my-5 fader">
-				<div className="col-12 col-md-3 px-5 mx-5 mx-md-0 px-md-0">
+				<div className="col-12 col-md-2 px-5 mx-5 mx-md-0 px-md-0">
 					<a
 						href={this.props.website}
 						target="_blank"
@@ -39,7 +39,7 @@ class Experience extends Component {
 						/>
 					</a>
 				</div>
-				<div className="col-11 col-md-8">
+				<div className="col-11 col-md-9">
 					<div className="row d-flex justify-content-between align-items-center mb-2">
 						<h3 className="mr-2">{this.props.company}</h3>
 						<h6 className="d-none d-md-block float-right">

@@ -12,8 +12,8 @@ function App() {
 	return (
 		<div>
 			<Navbar />
-			<Header />
 			<div className="container">
+				<Header />
 				<Experiences experiences={experiences} />
 				<Skills skills={skills} />
 				<Projects projects={projects} />

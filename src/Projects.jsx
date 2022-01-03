@@ -22,7 +22,9 @@ class Projects extends Component {
 		});
 		return (
 			<div id="projects" className="jumptarget">
-				<h2 className="highlight ml-2 ml-sm-0">Projects</h2>
+				<div className="row">
+					<h2 className="row highlight ml-sm-0">Projects</h2>
+				</div>
 				<div>{rows}</div>
 			</div>
 		);
